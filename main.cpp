@@ -34,7 +34,7 @@ bool quickUnion::Connected(int p,int q) {//check if two elements are connected,
     return root(p) == root(q);           //they have the same root
 }
 
-quickUnion::~quickUnion() {
+quickUnion::~quickUnion() {   //destructor
 if (id != nullptr){
     delete id;
 }
